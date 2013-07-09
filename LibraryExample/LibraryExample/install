@@ -1,0 +1,4 @@
+# A script to clean, package, and then install this project into your local ~/.m2/ directory.
+#!/bin/sh
+mvn install
+

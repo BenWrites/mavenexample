@@ -1,0 +1,5 @@
+# go
+# First runs the 'deployment' script, then the 'run' script.
+#!/bin/sh
+sh deploy
+sh run

@@ -1,0 +1,4 @@
+# A script to run the application.
+#!/bin/sh
+java -jar "$PWD/target/AppExample-1.0-SNAPSHOT.jar"
+

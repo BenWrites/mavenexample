@@ -1,0 +1,6 @@
+# noMavenInstall 
+# This script installs a .jar file to the local Maven repository. 
+#!/bin/sh
+mvn clean package
+mvn install:install-file -Dfile="$PWD/target/LibraryExample-1.0-SNAPSHOT.jar" -DgroupId=net.angryrodent.examples.libraryexample -DartifactId=LibraryExample -Dversion=1.0-SNAPSHOT -Dpackaging=jar
+

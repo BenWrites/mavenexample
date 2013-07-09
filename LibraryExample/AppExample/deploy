@@ -1,0 +1,3 @@
+# A script to deploy the application.
+#!/bin/sh
+mvn clean package
